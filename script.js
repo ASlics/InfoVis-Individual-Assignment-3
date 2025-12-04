@@ -28,7 +28,7 @@ function resetZoom() {
 
 
 const plotTreeMap = function(data) {
-  const width = 1600, height = 650;
+  const width = 1600, height = 600;
   
   const x = d3.scaleLinear().domain([0, width]).rangeRound([0, width]);
   const y = d3.scaleLinear().domain([0, height]).rangeRound([0, height]);
